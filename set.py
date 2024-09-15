@@ -1,0 +1,15 @@
+set={1,2,3,3}
+print(set)
+a={1.0,"hello"}
+print(a)
+print(a.pop())
+x={"red","blue"}
+y={"red","yellow"}
+z=x.union(y)
+print(z)
+b=x.intersection(y)
+print(b)
+c=x.symmetric_difference(y)
+print(c)
+d=x.difference(y)
+print(d)
